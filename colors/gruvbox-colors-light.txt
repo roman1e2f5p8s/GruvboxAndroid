@@ -1,0 +1,45 @@
+dark0_hard     = #1d2021 - On Surface,On Background
+dark0          = #282828 - Inverse Surface,On Primary Container,On Primary Fixed,On Secondary Container,On Tertiary Container,On Secondary Fixed,On Tertiary Fixed
+dark0_soft     = #32302f - On Surface Variant,On Primary Fixed Variant,On Secondary Fixed Variant,On Tertiary Fixed Variant
+dark1          = #3c3836
+dark2          = #504945 - Outline
+dark3          = #665c54
+dark4          = #7c6f64 - Surface Dim
+
+gray_245       = #928374 - Outline Variant
+
+light0_hard    = #f9f5d7 - On Primary,On Secondary,On Tertiary,On Error,Surface Container Lowest
+light0         = #fbf1c7 - Surface,Surface Bright,Background
+light0_soft    = #f2e5bc - Inverse On Surface
+light1         = #ebdbb2 - Surface Container Low
+light2         = #d5c4a1 - Surface Container,Surface Variant
+light3         = #bdae93 - Surface Container High
+light4         = #a89984 - Surface Container Highest
+light5         = #e8cacf - Error Container
+
+bright_red     = #fb4934
+bright_green   = #b8bb26
+bright_yellow  = #fabd2f
+bright_blue    = #83a598
+bright_purple  = #d3869b
+bright_aqua    = #8ec07c
+bright_orange  = #fe8019
+
+neutral_red    = #cc241d - Error
+neutral_green  = #98971a - Secondary
+neutral_yellow = #d79921 - Primary Container,Primary Fixed,Inverse Primary
+neutral_blue   = #458588 - Tertiary
+neutral_purple = #b16286 - Tertiary Container,Tertiary Fixed
+neutral_aqua   = #689d6a - Secondary Container,Secondary Fixed
+neutral_orange = #d65d0e - Primary
+
+faded_red      = #9d0006 - On Error Container
+faded_green    = #79740e
+faded_yellow   = #b57614 - Primary Fixed Dim
+faded_blue     = #076678
+faded_purple   = #8f3f71 - Tertiary Fixed Dim
+faded_aqua     = #427b58 - Secondary Fixed Dim
+faded_orange   = #af3a03
+
+black          = #000000 - Scrim,Shadow,Surface Tint
+white          = #ffffff
