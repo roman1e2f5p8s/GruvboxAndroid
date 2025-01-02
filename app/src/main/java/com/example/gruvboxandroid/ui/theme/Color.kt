@@ -40,7 +40,7 @@ val gb_light_surfaceDim = Dark4
 val gb_light_surface = Light0
 val gb_light_surfaceBright = Light0
 val gb_light_surfaceVariant = Light2
-
+val gb_light_surfaceTint = Black
 //
 val gb_light_surfaceContainerLowest = Light0Hard
 val gb_light_surfaceContainerLow = Light1
