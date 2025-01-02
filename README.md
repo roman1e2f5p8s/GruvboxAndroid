@@ -260,7 +260,7 @@ val gb_dark_scrim = Black
 val gb_dark_shadow = Black
 ```
 
-- [`Color.kt`](./app/src/main/java/com/example/gruvboxandroid/ui/theme/Theme.kt)
+- [`Theme.kt`](./app/src/main/java/com/example/gruvboxandroid/ui/theme/Theme.kt)
 
 ```kotlin
 package com.example.gruvboxandroid.ui.theme // change to your project name here
