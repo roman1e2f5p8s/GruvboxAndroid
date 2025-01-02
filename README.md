@@ -28,7 +28,7 @@ are mapped to the gruvbox colors as follows:
 | `light0`         | ![#fbf1c7](https://placehold.co/15x15/fbf1c7/fbf1c7.png) `#fbf1c7` | Inverse Surface, On Primary Container, On Primary Fixed, On Secondary Container, On Tertiary Container, On Secondary Fixed, On Tertiary Fixed | Surface, Surface Bright, Background |
 | `light0_soft`    | ![#f2e5bc](https://placehold.co/15x15/f2e5bc/f2e5bc.png) `#f2e5bc` | On Surface Variant, On Primary Fixed Variant, On Secondary Fixed Variant, On Tertiary Fixed Variant | Inverse On Surface |
 | `light1`         | ![#ebdbb2](https://placehold.co/15x15/ebdbb2/ebdbb2.png) `#ebdbb2` | - | Surface Container Low |
-| `light2`         | ![#d5c4a1](https://placehold.co/15x15/d5c4a1/d5c4a1.png) `#d5c4a1` | Outline | Surface Container,Surface Variant |
+| `light2`         | ![#d5c4a1](https://placehold.co/15x15/d5c4a1/d5c4a1.png) `#d5c4a1` | Outline | Surface Container, Surface Variant |
 | `light3`         | ![#bdae93](https://placehold.co/15x15/bdae93/bdae93.png) `#bdae93` | - | Surface Container High |
 | `light4`         | ![#a89984](https://placehold.co/15x15/a89984/a89984.png) `#a89984` | Surface Dim | Surface Container Highest |
 | `light5`         | ![#e8cacf](https://placehold.co/15x15/e8cacf/e8cacf.png) `#e8cacf` | Error Container | Error Container |
