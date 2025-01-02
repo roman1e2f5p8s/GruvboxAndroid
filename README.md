@@ -403,4 +403,20 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-````
+```
+
+Enjoy the Grubvox vibes in your Android app!
+
+## Appearance
+
+| Gruvbox Dark Mode | Grubvox Light Mode |
+| ----------------- | ------------------ |
+| ![Main screen dark](./colors/main_screen_dark.jpg) | ![Main screen light](./colors/main_screen_light.jpg) |
+| ![Drawer dark](./colors/drawer_dark.jpg) | ![Drawer light](./colors/drawer_light.jpg) |
+| ![Menu dark](./colors/menu_dark.jpg) | ![Menu light](./colors/menu_light.jpg) |
+| ![Bottom sheet dark](./colors/bottom_sheet_dark.jpg) | ![Bottom sheet light](./colors/bottom_sheet_light.jpg) |
+| ![Dialog dark](./colors/dialog_dark.jpg) | ![Dialog light](./colors/dialog_light.jpg) |
+| ![Input 1 dark](./colors/input1_dark.jpg) | ![Input 1 light](./colors/input1_light.jpg) |
+| ![Error 1 dark](./colors/error1_dark.jpg) | ![Error 1 light](./colors/error1_light.jpg) |
+| ![Input 2 dark](./colors/input2_dark.jpg) | ![Input 2 light](./colors/input2_light.jpg) |
+| ![Error 2 dark](./colors/error2_dark.jpg) | ![Error 2 light](./colors/error2_light.jpg) |
