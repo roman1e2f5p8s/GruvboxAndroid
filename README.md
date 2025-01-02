@@ -1,4 +1,4 @@
-# GrubvoxAndroid
+# GrubvoxAndroid ![](./app/src/main/res/mipmap-mdpi/ic_launcher.webp)
 
 The Grubvox color scheme for Android is inspired by the colors from
 [gruvbox](https://github.com/morhetz/gruvbox).
