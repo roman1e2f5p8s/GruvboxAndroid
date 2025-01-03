@@ -1,4 +1,4 @@
-package com.example.gruvboxandroid
+package com.example.gruvboxandroid.ui
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -101,6 +101,7 @@ import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.gruvboxandroid.R
 import com.example.gruvboxandroid.ui.theme.GruvboxTheme
 import com.example.gruvboxandroid.ui.theme.gb_dark_outline
 import com.example.gruvboxandroid.ui.theme.gb_light_outline
@@ -110,8 +111,8 @@ import java.util.Calendar
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun MainContent() {
-    val b = isSystemInDarkTheme()
+fun mainContent(darkThemeOpt: Boolean?): Boolean {
+    val b = darkThemeOpt ?: isSystemInDarkTheme()
     val darkTheme = remember { mutableStateOf(b) }
 
     GruvboxTheme(darkTheme = darkTheme.value) {
@@ -152,12 +153,14 @@ fun MainContent() {
             }
         }
     }
+
+    return darkTheme.value
 }
 
 @Composable
 fun ModalDrawerSheetExample() {
     ModalDrawerSheet(
-        modifier = Modifier.width((LocalConfiguration.current.screenWidthDp * 0.85).dp),
+        //modifier = Modifier.width((LocalConfiguration.current.screenWidthDp * 0.85).dp),
         drawerShape = RectangleShape
     ) {
         NavigationDrawerItem(
@@ -428,7 +431,7 @@ fun BottomSheetExample(showBottomSheet: MutableState<Boolean>, sheetState: Sheet
             onDismissRequest = {
                 showBottomSheet.value = false
             },
-            modifier = Modifier.fillMaxHeight(),
+            modifier = Modifier.fillMaxSize(),
             sheetState = sheetState,
             shape = RectangleShape,
         ) {
@@ -568,7 +571,6 @@ fun SwitchExample() {
                     imageVector = Icons.Filled.Check,
                     contentDescription = null,
                     modifier = Modifier.size(SwitchDefaults.IconSize),
-                    //tint = if (isSystemInDarkTheme()) { md_theme_dark_onBackground } else { md_theme_light_onBackground },
                 )
             }
         } else {
